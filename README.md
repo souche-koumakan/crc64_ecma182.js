@@ -22,7 +22,7 @@ crc64.crc64(buff[, prev]);
 
 + Parameters:
     + `buff`: the buffer or string to be calculated;
-    + [`prev`]: if exists, `prev` indicates the previous CRC64-ECMA182 value; (**optional**)
+    + \[`prev`]: if exists, `prev` indicates the previous CRC64-ECMA182 value; (**optional**)
 + Returns: the result string indicates a uint64 value that calculated.
 
 
