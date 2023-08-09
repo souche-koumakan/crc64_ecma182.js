@@ -1,3 +1,4 @@
+#include <emscripten/bind.h>
 #include "crc64_ecma_182.h"
 
 #define POLY UINT64_C(0xc96c5795d7870f42)

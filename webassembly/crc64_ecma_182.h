@@ -1,10 +1,3 @@
-/**
- *  crc64-ecma182.js - Pure JavaScript implement of CRC64-ECMA182 for Node.js.
- *
- * Copyright (c) 2017 Souche Koumakan Group
- *
- * MIT LIcense <https://github.com/souche-koumakan/crc64.js/blob/master/LICENSE>
- */
 #ifndef __CRC64_ECMA_182_H__
 #define __CRC64_ECMA_182_H__
 
@@ -57,7 +50,6 @@
  *                   Make use of the pthread library optional
  * 1.4  16 Dec 2013  Make once variable volatile for limited thread protection
  */
-#include <emscripten/bind.h>
 #include <stdlib.h>
 #include <stdint.h>
 

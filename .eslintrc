@@ -1,0 +1,7 @@
+{
+  "extends": "eslint-config-egg",
+  "overrides": [{
+    "files": [ "*.ts" ],
+    "extends": "eslint-config-egg/typescript"
+  }]
+}
