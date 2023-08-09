@@ -1,6 +1,6 @@
 {
   "name": "crc64-ecma182.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Pure JavaScript implement of CRC64-ECMA182 for Node.js.",
   "main": "crc64_ecma182.js",
   "scripts": {

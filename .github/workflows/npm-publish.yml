@@ -21,7 +21,7 @@ jobs:
           version: 3.1.7
           actions-cache-folder: 'emsdk-cache'
       - run: npm install
-      - run: npm run lint
+      - run: npm run eslint
       - run: npm test
 
   publish-npm:
