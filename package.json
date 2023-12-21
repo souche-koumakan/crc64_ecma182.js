@@ -1,9 +1,12 @@
 {
   "name": "crc64-ecma182.js",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "Pure JavaScript implement of CRC64-ECMA182 for Node.js.",
   "main": "crc64_ecma182.js",
   "scripts": {
+    "eslint": "eslint .",
+    "postinstall": "node scripts/postinstall.js",
+    "prepublishOnly": "mkdir -p dist && make js",
     "test": "make test"
   },
   "repository": {
@@ -17,11 +20,23 @@
   "author": "XadillaX <i@2333.moe>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/souche-koumakan/crc64-ecma182.js/issues"
+    "url": "https://github.com/XadillaX/crc64-ecma182.js/issues"
   },
-  "homepage": "https://github.com/souche-koumakan/crc64-ecma182.js#readme",
+  "homepage": "https://github.com/XadillaX/crc64-ecma182.js#readme",
   "devDependencies": {
-    "mocha": "^3.5.0",
-    "should": "^13.0.1"
-  }
+    "@types/node": "^20.4.9",
+    "eslint": "^8.46.0",
+    "eslint-config-egg": "^12.2.1",
+    "mocha": "^10.2.0",
+    "semver": "^7.5.4",
+    "should": "^13.2.3",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist",
+    "crc64_ecma182.js",
+    "crc64_ecma182.d.ts",
+    "scripts/postinstall.js"
+  ],
+  "types": "crc64_ecma182.d.ts"
 }
